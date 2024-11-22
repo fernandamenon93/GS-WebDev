@@ -30,7 +30,29 @@ const Comunidade = () => {
           essas práticas no seu dia a dia.
         </p>
       </section>
+      <section className="info-section">
+      <h1>Sobre Nós - EcoRide</h1>
+      <h3>Bem-vindo ao EcoRide!</h3>
+      <p>Somos uma plataforma inovadora dedicada a transformar a mobilidade urbana em uma experiência 
+        sustentável e consciente. Nossa missão é criar soluções inteligentes que conectem pessoas e
+         promovam escolhas ecológicas para reduzir o impacto ambiental dos transportes. <br />
+         <br />
+
+        No EcoRide, acreditamos que pequenos gestos podem causar grandes mudanças. Por isso, desenvolvemos
+         um sistema que incentiva o uso de transportes sustentáveis, como bicicletas, caronas elétricas e 
+          transporte público, ajudando a construir um futuro mais verde e eficiente para todos.</p>
+      <h3>Nossa Visão</h3>
+          <p>Um mundo onde cada trajeto seja uma contribuição positiva para o planeta, tornando o transporte 
+            sustentável acessível e recompensador para todos.</p>
+      <h3>Nossa Missão</h3>
+          <p>Facilitar e promover o uso de meios de transporte que respeitem o meio ambiente, reduzindo emissões
+             de carbono e incentivando a mobilidade urbana responsável.</p>
+      </section>
+      
+
     </div>
+    
+    
   );
 };
 

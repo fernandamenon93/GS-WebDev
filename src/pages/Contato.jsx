@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";  
+import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Contato = () => {
   return (
@@ -9,31 +9,42 @@ const Contato = () => {
       <p>
         Quer saber mais sobre transporte sustentável ou compartilhar suas ideias? Entre em contato com a EcoRide:
       </p>
-      <p><strong>Email:</strong> suporte@ecoride.com</p>
-      <p><strong>Telefone:</strong> (11) 99999-9999</p>
-      <p><strong>Endereço:</strong> Rua Verde, 123 - São Paulo, SP</p>
+
+      <div className="contact-info">
+        <p>
+          <strong>Email:</strong> <a href="mailto:suporte@ecoride.com">suporte@ecoride.com</a>
+        </p>
+        <p>
+          <strong>Telefone:</strong> <a href="tel:+5511999999999">(11) 91234-5678</a>
+        </p>
+        <p>
+          <strong>Endereço:</strong> Rua Verde Palestra, 123 - São Paulo, SP
+        </p>
+      </div>
+
       <section className="social-media">
         <h2>Redes Sociais</h2>
         <ul>
           <li>
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faFacebook} />
+              <FontAwesomeIcon icon={faFacebook} /> Facebook
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faInstagram} />
+              <FontAwesomeIcon icon={faInstagram} /> Instagram
             </a>
           </li>
           <li>
             <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faTwitter} />
+              <FontAwesomeIcon icon={faTwitter} /> Twitter
             </a>
           </li>
         </ul>
       </section>
+
       <section className="hours">
-        <h2>Horário de Atendimento</h2>
+        <h2>Horário de Atendimento:</h2>
         <p>De segunda a sexta-feira: 8h às 18h</p>
       </section>
     </div>
@@ -41,5 +52,3 @@ const Contato = () => {
 };
 
 export default Contato;
-
- 

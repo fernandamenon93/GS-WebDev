@@ -4,6 +4,7 @@ function Header() {
 	return (
 		<header className="header">
 		  <div className="logo">
+			<img src="public/logo.png" alt="" width={100}  height={80}/>
 			<h1>EcoRide</h1>
 		  </div>
 		  <nav className="nav">
